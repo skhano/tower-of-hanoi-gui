@@ -16,7 +16,7 @@ import javax.swing.JMenuItem;
 import javax.swing.JTextField;
 
 /**
- * Graphical User Interface for the Towers of Hanoi game.
+ * Graphical User Interface for the Tower of Hanoi game.
  * @author Sam Khano
  */
 public class GUI {
@@ -40,7 +40,7 @@ public class GUI {
      * Start the GUI.
      */
     public void go() {
-        lab = new JLabel("Welcome to Towers of Hanoi");
+        lab = new JLabel("Welcome to my Tower of Hanoi App!");
         lab.setFont(new Font("Serif", Font.PLAIN, 20));
         frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
